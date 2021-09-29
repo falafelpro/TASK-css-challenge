@@ -1,15 +1,24 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(30, 0, 29);
 }
 .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .movie-card {
+  width: 200px;
+  height: 350px;
 }
 .movie-image {
+  max-height: 100%;
+  max-width: 100%;
 }
 .movie-details-container {
 }
 .descriptions {
+  color: white;
 }
 
 /*A gift from us!*/
